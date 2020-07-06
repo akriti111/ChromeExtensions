@@ -19,6 +19,8 @@ open chrome => type(chrome://extensions) => enable(developer mode) => click(load
 
 
  Extensions Examples build
-HelloWord extension : Browser Action
-BudgetManager extension: Browser Action : using chrome storage API (chrome storage is a place where we can store values within variables, we can retrieve whenever we want to:) And to use chrome storage , we need to have permission for chrome storage , we declare that in manifest ==============      "permission":["storage"]
+1)HelloWord extension : Browser Action
+2)BudgetManager extension: Browser Action : using CHROME STORAGE API (chrome storage is a place where we can store values within variables, we can retrieve whenever we want to:) And to use chrome storage , we need to have permission for chrome storage , we declare that in manifest ==============      "permission":["storage"]
+For chrome extensions apart from popup, we can also specify an OPTIONS Page, this page can be viewed by right clicking on the extensions. It can have html(for ui), css(for any styling) , js( for any functionality).
+for budgetmanager two things in option page: set a limit, reset total
  
